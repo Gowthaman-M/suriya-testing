@@ -1,6 +1,6 @@
 body{
     scroll-behavior: smooth;
-    background-color: #002244;
+    background-color: #141029;
 }
 .logo{
     width: 200px;
@@ -29,9 +29,15 @@ body{
 /* #6F00FF purple*/
 /* #7DF9FF green */
 .content{
-    background-color: #6F00FF;
+    background-color:whitesmoke;
     border-radius: 10px;
     padding: 20px;
+}
+li a h6{
+    color: whitesmoke;
+}
+li a h6:hover{
+    color: #cd0695;
 }
 @media only screen and (max-width: 767px) {
     #logo{
