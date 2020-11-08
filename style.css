@@ -1,15 +1,49 @@
+body{
+    scroll-behavior: smooth;
+    background-color: #002244;
+}
 .logo{
     width: 200px;
     height: 75px;
 }
-
-
-
+.starter{
+    background: linear-gradient(240deg,#3CB371,#7DF9FF);
+    background-image: url(images/background3.jpg);
+    background-size: cover;
+    /* background-color:#4FFFB0; */
+}
+#title
+{
+    margin-top: 100px;
+}
+#title,
+#abouttitle,
+#announcementtitle,
+#faqtitle
+    {
+        color: whitesmoke;
+    }
+#logo-container{
+    margin-bottom: 130px;
+}
+/* #6F00FF purple*/
+/* #7DF9FF green */
+.content{
+    background-color: #6F00FF;
+    border-radius: 10px;
+    padding: 20px;
+}
 @media only screen and (max-width: 767px) {
     #logo{
         margin-bottom: 25px;
     }
-    #title{
+    #title,
+    #abouttitle
+    {
+        margin-top: 0;
+        font-size: x-large;
+    }
+    h2{
         font-size: x-large;
     }
 }
